@@ -1,0 +1,38 @@
+body{
+  width: 1440px;
+  height: 1024px;
+}
+.logo{
+  width: 1440px;
+  height: 74px;
+  background-color: #333333;
+}
+.img{
+  width:82.48px;
+  height: 31px;
+  background-image:url("/assets/img/logo-uol.png");
+  background-size:100%;
+  position: absolute;
+  left: 679px;
+  top: 22px;
+}
+.img-painel-cliente{
+  width:37px;
+  height: 37px;
+  background-image:url("/assets/img/boneco.png");
+  background-size:100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 150px;
+}
+.painel-cliente{
+  color: #333333;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  width: 400px;
+  text-align: left;
+  padding-top: 7%;
+  padding-left: 46px;
+}

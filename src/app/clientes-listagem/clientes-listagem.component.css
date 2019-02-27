@@ -1,0 +1,187 @@
+.listagem-usuario{
+    color: #47525E;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;   
+    line-height: 34px;
+    width: 400px;
+    text-align: left;  
+}
+
+.bt-novo-cliente{
+    background-color: #E29933;
+    border-radius: 5px;
+    width: 117px;
+    height: 35px;
+    border: #E29933;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+
+    position: relative;
+    left: 928px;
+    bottom: 32px;       
+}
+
+span{
+  color: #666666;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  width: 606px;
+  text-align: left;
+
+  position: relative;
+  bottom: 27px;
+  
+}
+.lista{
+    padding-top: 25px;
+}
+ul { 
+    background-color: #FFFFFF;
+    list-style-type: none;
+    bottom: 9px;
+    position: relative;
+    width: 1076px;
+    height: 84px;
+    border:1px solid #EAEAEA;
+ }
+ li{
+    padding:0px;
+    margin: 0px;
+    position:relative;
+    
+ }
+ .name{
+    color: #666666;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+ }
+ .cpf{
+    left: 367px;
+    bottom: 22px;
+
+    color: #666666;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+ }
+ .email{
+    bottom: 22px;
+
+    color: #666666;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+ }
+ .tel{
+    left: 367px;
+    bottom: 46px;
+    right: 10px;
+
+    color: #666666;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+
+ }
+
+ .status{
+    bottom: 95px;
+    left: 715px; 
+
+    color: #666666;
+    font-family: Lato;
+    font-size: 18px;    
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+    position: relative;
+ }
+ .status-ativo{
+    bottom: 76px;
+    left: 695px;
+    background-color: #49AD5B;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;    
+ }
+ .status-aguardando{
+    bottom: 76px;
+    left: 695px;
+    background-color: #D6323F;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;    
+ }
+ .status-inativo{
+    bottom: 76px;
+    left: 695px;
+    background-color: #D2A710;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;    
+ }
+ .status-desativado{
+    bottom: 76px;
+    left: 881px;
+    background-color: #D2D2D2;
+    border-radius: 100%;
+    width: 14px;
+    height: 14px;    
+ }
+ .bt-editar{
+    position: relative;
+    bottom: 110px;
+    left: 881px;
+    color:#E29933;
+    background-color: #FFFFFF;
+    border: 1px solid #E29933;
+    border-radius: 5px;
+    width: 132px;
+    height: 44px;
+    
+ }
+ [class*=bt-editar]:hover{
+    background-color: #E29933;
+    color: #FFFFFF;
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+ }
+ button:not(:disabled) {
+    cursor: url('/assets/img/mao.png'), auto;
+}
+ 
+ 
+ /*
+ .novo-cursor{
+    cursor: url('/assets/img/mao.png'), default;
+   
+    
+}
+ .novo-cursor  {
+    cursor: auto;
+    cursor: url('/assets/img/mao.png') 2 12, auto;
+  } 
+ 
+ .bt-editar a:hover{
+    background-color: rgba(226, 153, 51, 0) url('img/mao.png') no-repeat center center;
+    
+ }
+ */

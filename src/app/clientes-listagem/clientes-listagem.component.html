@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="listagem-usuario">Listagem de usuários</div>
+    <div><button routerLink="/novo" class="bt-novo-cliente">Novo cliente</button></div> 
+    <span>Escolha um cliente para visualizar os detalhes</span> 
+    <div class="lista" >
+      <ul *ngFor="let c of clientes.data">
+        <li class="name">{{c.name}}</li>
+        <li class="cpf">{{c.cpf}}</li>
+        <li class="email">{{c.contact.email}}</li>
+        <li class="tel">{{c.contact.tel}}</li>
+        <li id="status" class="status-ativo"></li>
+        <li class="status">{{c.status}}</li>
+        <li><button routerLink="/novo" class="bt-editar novo-cursor">Editar</button></li>  
+      </ul>
+  </div>
+</div>
+<!-- 
+  <form class="col-md-12" #clienteData="ngForm" (ngSubmit)="addNewCliente(clienteData.value)">       
+      <input type="submit" class="btn btn-success" value="Add Cliente"> 
+  </form>    
+-->
